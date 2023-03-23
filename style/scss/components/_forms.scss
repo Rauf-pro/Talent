@@ -1,0 +1,30 @@
+/*-------------------------------------------------
+    [ ## Fields ]
+*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    &:focus {
+        outline: none;
+    }
+}
+
+textarea {
+}
+input,
+select,
+textarea {
+    &:focus {
+        outline: none;
+    }
+}
+option:checked {
+    color: $white !important;
+    background-color:  $dark--green--color;
+}
+
+label {
+}
+/*-------------------------------------------------
+    [ ## Forms ]
+*/

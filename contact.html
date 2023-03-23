@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="BrandyBox">
+        <meta name="description" content="Talent- Score">
+        <meta name="keywords" content="Talent - TalentScore">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <!-- Favicon -->
+        <!-- Bootstrap link -->
+        <link rel="stylesheet" href="lib/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+        <!-- Fontawsome link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+            integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link rel="stylesheet" href="css/main.min.css">
+        <title>Talent Score</title>
+    </head>
+    <body class="body">
+        <div class="overlay_leftsidebar"></div>
+        <!-------------------------------------------- Header-section ---------------------------------------------->
+        <header class="header" id="header">
+            <div class="navbar-desktop">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo 1.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-5 ">
+                            <ul class="nav-list">
+                                <li class="list">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="list">
+                                    <a class="nav-link" href="about.html">About Product</a>
+                                </li>
+                                <li class="list">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-5">
+                            <div class="nav-right">
+                                <div class="nav-btns">
+                                    <a class="sign-in" href="login.html">Sign in</a>
+                                    <a class="sign-up btn--primary" href="register.html">Sign up</a>
+                                </div>
+                                <ul class="right-lists">
+                                    <li class="lang-list">
+                                        <div class="dropdown">
+                                            <a
+                                                class="btn btn-secondary dropdown-toggle btn-lang"
+                                                href="#"
+                                                role="button"
+                                                id="dropdownMenuLink"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                <span>Az</span>
+                                                <i class="fa-solid fa-chevron-down chevron-language"></i>
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">En</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Ru</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------------------------- Mobile nav menu  ------------------------------------->
+            <div class="navbar-mobile ">
+                <div class="container">
+                    <div class="mobile-nav-wrapper">
+                        <div class="menu-bar">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo 1.svg" alt="">
+                            </a>
+                        </div>
+                        <ul class="right-lists">
+                            <li class="lang-list">
+                                <div class="dropdown">
+                                    <a
+                                        class="btn btn-secondary dropdown-toggle btn-lang"
+                                        href="#"
+                                        role="button"
+                                        id="dropdownMenuLink"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        <span>Az</span>
+                                        <i class="fa-solid fa-chevron-down chevron-language"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <li>
+                                            <a class="dropdown-item" href="#">En</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Ru</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navlist-mobile">
+                        <ul class="nav-list">
+                            <li class="list">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="list">
+                                <a class="nav-link" href="about.html">About Product</a>
+                            </li>
+                            <li class="list">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="nav-btns">
+                            <a class="sign-in" href="login.html">Sign in</a>
+                            <a class="sign-up btn--primary" href="register.html">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!------------------------------------ Start Introductions Banner section --------------------------------------->
+            <section class="contact pt-200 pb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12-lg-12">
+                            <div class="form-wrapper">
+                                <h1 class="contact-title">Contact</h1>
+                                <div class="contact-form-wrapper">
+                                    <form action="">
+                                        <label for="">Full Name</label>
+                                        <input type="text" class="input">
+                                        <label for="">Phone Number</label>
+                                        <input type="phone" class="input">
+                                        <label for="">Email</label>
+                                        <input type="email" class="input">
+                                        <label for="">Subject</label>
+                                        <textarea name="textarea" id="textarea" class="textarea"></textarea>
+                                        <button class="contact-btn btn--secondary">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="mt-170">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3  col-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo 1.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7  col-12">
+                            <div class="links-wrapper">
+                                <div class="links">
+                                    <h2 class="title">Company</h2>
+                                    <ul class="lists">
+                                        <li class="list">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <a class="link" href="about.html">About product</a>
+                                        </li>
+                                        <li class="list">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <a class="link" href="contact.html">Contact</a>
+                                        </li>
+                                        <li class="list">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <a class="link" href="login.html">Login</a>
+                                        </li>
+                                        <li class="list">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <a class="link" href="register.html">Register</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <h2 class="title">Usefull links</h2>
+                                    <ul class="lists">
+                                        <li class="list">
+                                            <a class="link" href="#">Privacy Policy</a>
+                                        </li>
+                                        <li class="list">
+                                            <a class="link" href="#">Terms of Condition</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2  col-12">
+                            <ul class="social-icons">
+                                <li class="social-list">
+                                    <a class="social-link" href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>Talent Score, MMC</p>
+                </div>
+            </div>
+        </footer>
+        <!-- <div class="container">
+            <div class="scrollto-top" id="scroll-up">
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+        </div> -->
+        <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="lib/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
